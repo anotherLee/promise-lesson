@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>异步demo</title>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./promise-maker.js"></script>
+</head>
+<body>
+    用户：<span id="user"></span>
+    <hr>
+    分组：<span id="groups"></span>
+    <hr>
+    一个群成员：<span id="members"></span>
+
+    <form action="./user.json" method="post">
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
